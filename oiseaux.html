@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+  </head>
+  <body style="background-color: rgba(0, 0, 0, 0.055)">
+    <nav class="menu">
+      <ul>
+        <li><a class="lien" href="accueil.html">Accueil</a></li>
+        <li><a class="lien" href="">Les mammifères </a></li>
+        <li><a class="lien" href="oiseaux.html">Les oiseaux </a></li>
+        <li><a class="lien" href="">Les reptiles</a></li>
+        <li><a class="lien" href="">Les poissons </a></li>
+        <li><a class="lien" href="">Les amphibiens </a></li>
+      </ul>
+    </nav>
+    <div style="height: 100px">
+      <h1
+        style="
+          text-align: center;
+          margin-top: 20px;
+          font-family: 'Sofia', sans-serif;
+          font-size: 50px;
+        "
+      >
+        Animals world
+      </h1>
+      <div style="display: flex; align-items: center; justify-content: center">
+        <input
+          id="searchbar"
+          type="text"
+          name="search"
+          placeholder="  Search animals.."
+          style="
+            height: 50px;
+            width: 300px;
+            border-radius: 20px;
+            border: none;
+            margin-top: 20px;
+            font-size: 20px;
+            background-color: rgba(240, 248, 255, 0.411);
+          "
+        />
+        <button type="submit" class="button" style="margin-left: 50px">
+          Submit
+        </button>
+      </div>
+    </div>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+      "
+    >
+      <div class="card">
+        <div class="card-image">
+          <img
+            class="img"
+            src="images/GoldenEagle-Nova.jpg"
+            alt="Aigle royal"
+            style="filter: sepia(60%);"
+          />
+        </div>
+        <div class="card-body">
+          <div class="card-date">
+            <time>20 Novembre 2023</time>
+          </div>
+          <div class="card-title">
+            <h3>Aigle royal</h3>
+          </div>
+          <div class="card-excerpt">
+            <p>
+              L’aigle royal (surnommé aussi l’aigle doré) est une espèce
+              d’oiseau rapace de la famille des accipitridés qui vit en Amérique
+              du nord et en Eurasie. <span id="dots">...</span
+              ><span style="display: none">
+                L’oiseau est considéré comme l’un des rapaces les plus puissants
+                au monde. Par ses qualités de chasseur, son agilité et son
+                charisme, l’aigle royal a depuis tout temps et dans de
+                nombreuses civilisations évoqué la grandeur et la
+                puissance.</span
+              >
+            </p>
+            <a href="seemore.html">see more >></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img class="img" src="images/Blue-Jay.jpg" alt="Orange" />
+        </div>
+        <div class="card-body">
+          <div class="card-date">
+            <time>20 mars 2023</time>
+          </div>
+          <div class="card-title">
+            <h3>Geai bleu</h3>
+          </div>
+          <div class="card-excerpt">
+            <p>
+              Le geai bleu est une espèce d’oiseau appartenant à l’ordre des
+              passériformes (passereaux) et à la famille des corvidés. Il vit en
+              Amérique du Nord d’où l’espèce<span id="dots">...</span
+              ><span style="display: none">
+                est endémique (Etats-unis, Canada, Québec) ainsi qu’au
+                Mexique.</span
+              >
+            </p>
+            <a href="seemore">see more >></a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img class="img" src="images/manchot-empereur.jpeg" alt="Orange" />
+        </div>
+        <div class="card-body">
+          <div class="card-date">
+            <time>20 Novembre 1992</time>
+          </div>
+          <div class="card-title">
+            <h3>Manchot empereur</h3>
+          </div>
+          <div class="card-excerpt">
+            <p>
+              Le manchot empereur est une espèce d’oiseau de mer appartenant à
+              l’ordre des sphénisciformes et à la famille des sphéniscidés. Il
+              ressemble au pingouin, <span id="dots">...</span
+              ><span style="display: none"
+                >mais il est beaucoup plus gros que lui et ne peut pas voler. Il
+                vit au pôle Sud, en Antarctique d’où l’espèce est
+                endémique.</span
+              >
+            </p>
+            <a href="seemore">read more >></a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img
+            class="img"
+            src="images/vanneau-huppe-photo-2.jpg"
+            alt="Orange"
+          />
+        </div>
+        <div class="card-body">
+          <div class="card-date">
+            <time>20 Novembre 1992</time>
+          </div>
+          <div class="card-title">
+            <h3>Vanneau huppe</h3>
+          </div>
+          <div class="card-excerpt">
+            <p>
+              Le manchot empereur est une espèce d’oiseau de mer appartenant à
+              l’ordre des sphénisciformes et à la famille des sphéniscidés. Il
+              ressemble au pingouin, <span id="dots">...</span
+              ><span style="display: none"
+                >mais il est beaucoup plus gros que lui et ne peut pas voler. Il
+                vit au pôle Sud, en Antarctique d’où l’espèce est
+                endémique.</span
+              >
+            </p>
+            <a href="seemore">read more >></a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img class="img" src="images/oie-cendree-.jpg" alt="Orange" />
+        </div>
+        <div class="card-body">
+          <div class="card-date">
+            <time>20 Novembre 1992</time>
+          </div>
+          <div class="card-title">
+            <h3>Oie cendree</h3>
+          </div>
+          <div class="card-excerpt">
+            <p>
+              Le manchot empereur est une espèce d’oiseau de mer appartenant à
+              l’ordre des sphénisciformes et à la famille des sphéniscidés. Il
+              ressemble au pingouin, <span id="dots">...</span
+              ><span style="display: none"
+                >mais il est beaucoup plus gros que lui et ne peut pas voler. Il
+                vit au pôle Sud, en Antarctique d’où l’espèce est
+                endémique.</span
+              >
+            </p>
+            <a href="seemore">read more >></a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img class="img" src="images/pie-bavarde-photo.jpg" alt="Orange" />
+        </div>
+        <div class="card-body">
+          <div class="card-date">
+            <time>20 Novembre 1992</time>
+          </div>
+          <div class="card-title">
+            <h3>pie bavarde</h3>
+          </div>
+          <div class="card-excerpt">
+            <p>
+              Le manchot empereur est une espèce d’oiseau de mer appartenant à
+              l’ordre des sphénisciformes et à la famille des sphéniscidés. Il
+              ressemble au pingouin, <span id="dots">...</span
+              ><span style="display: none"
+                >mais il est beaucoup plus gros que lui et ne peut pas voler. Il
+                vit au pôle Sud, en Antarctique d’où l’espèce est
+                endémique.</span
+              >
+            </p>
+            <a href="seemore">read more >></a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img
+            class="img"
+            src="images/serin-cini-male-photo-2.jpg"
+            alt="Orange"
+          />
+        </div>
+        <div class="card-body">
+          <div class="card-date">
+            <time>20 Novembre 1992</time>
+          </div>
+          <div class="card-title">
+            <h3>Serin cini</h3>
+          </div>
+          <div class="card-excerpt">
+            <p>
+              Le manchot empereur est une espèce d’oiseau de mer appartenant à
+              l’ordre des sphénisciformes et à la famille des sphéniscidés. Il
+              ressemble au pingouin, <span id="dots">...</span
+              ><span style="display: none"
+                >mais il est beaucoup plus gros que lui et ne peut pas voler. Il
+                vit au pôle Sud, en Antarctique d’où l’espèce est
+                endémique.</span
+              >
+            </p>
+            <a href="seemore">read more >></a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img class="img" src="images/manchot-empereur.jpeg" alt="Orange" />
+        </div>
+        <div class="card-body">
+          <div class="card-date">
+            <time>20 Novembre 1992</time>
+          </div>
+          <div class="card-title">
+            <h3>Lorem Ipsum</h3>
+          </div>
+          <div class="card-excerpt">
+            <p>
+              Le manchot empereur est une espèce d’oiseau de mer appartenant à
+              l’ordre des sphénisciformes et à la famille des sphéniscidés. Il
+              ressemble au pingouin, <span id="dots">...</span
+              ><span style="display: none"
+                >mais il est beaucoup plus gros que lui et ne peut pas voler. Il
+                vit au pôle Sud, en Antarctique d’où l’espèce est
+                endémique.</span
+              >
+            </p>
+            <a href="seemore">read more >></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; padding: 1rem; background-color: black; color: #fff; font-size: 20px;height: 100px;">
+      <p>Copyright © 2023 BENNAI Farouk </p>
+    </footer>
+  </body>
+</html>
